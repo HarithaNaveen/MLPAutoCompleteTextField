@@ -43,4 +43,9 @@ This method will be called asynchronously, so an immediate return is not necessa
 
 
 
+/*
+ This is to help paging the search results
+ */
+- (void)autoCompleteTextField:(MLPAutoCompleteTextField *)textField
+      willDisplayCellAtIndexPath:(NSIndexPath *)indexPath;
 @end
